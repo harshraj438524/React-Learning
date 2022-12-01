@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
-function App() {
+// import Welcome from './components/Welcome';
+// import Harsh from './components/Harsh';
+// import Count from './components/Count';
+// import Greet from './components/Count';
+// import Message from './components/Message';
+// import FunctionClick from './components/FunctionClick';
+// import ClassClick from './components/ClassClick';
+// import EventBind from './components/EventBind';
+import HooksCounter from './components/HooksCounter';
+import HooksCounter2 from './components/HooksCounter2';
+function App() { 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+     {/* <Harsh/>
+     <Count/>
+     <Message/>
+     <FunctionClick/>
+     <ClassClick/>
+     <EventBind/> */}
+     <HooksCounter2/>
+
+  
     </div>
   );
 }
